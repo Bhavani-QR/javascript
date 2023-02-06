@@ -1,0 +1,11 @@
+#demo{
+    text-align: center;
+    color: pink;
+    font-style: italic;
+    
+}
+#demo2{
+    border: 50% pink;
+    width: 30%;
+    height: 50%;
+}

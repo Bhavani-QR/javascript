@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> javascript</title>
+    </head>
+    <body>
+        <p id="demo"> this is hjavscript</p>
+        <script>
+            const object =
+            {
+                lastName  :"bhavani",
+                firstName  :"bankuru",
+                fullName : function(){
+                   return this.lastName + " "  + this.firstName;
+                }
+            }
+            document.getElementById("demo").innerHTML=object.fullName();
+        </script>
+    </body>
+</html>
